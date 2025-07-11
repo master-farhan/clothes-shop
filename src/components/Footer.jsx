@@ -6,7 +6,10 @@ const Footer = () => {
     <div className="">
       <div className="flex flex-col sm:grid sm:grid-cols-[3fr_1fr_1fr] gap-14 my-10 mt-40 text-sm">
         <div className="">
-          <img src={assets.logo} className="mb-5 w-32" alt="" />
+          {/* <img src={assets.logo} className="mb-5 w-32" alt="" /> */}
+          <h3 className="text-2xl text-shadow text-gray-950 font-sm uppercase pb-5">
+            DripNest
+          </h3>
           <p className="w-full md:2/3 text-gray-600">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit ad
             delectus error at assumenda adipisci, alias ab optio? Architecto ea

@@ -5,7 +5,7 @@ const Hero = () => {
   return (
     <div className="flex justify-between flex-col sm:flex-row ">
       {/* Hero left side */}
-      <div className="w-full sm:w-1/2 flex items-center justify-center py-10 sm:py-0">
+      <div className="w-full sm:w-1/2 flex items-center justify-center sm:justify-start py-10 sm:py-0">
         <div className="text-[#414141]">
           {" "}
           <div className="flex items-center gap-2">
@@ -23,7 +23,7 @@ const Hero = () => {
       </div>
 
       {/* Hero right side */}
-      <img className="w-full sm:w-2/7 sm:mr-22" src={assets.hero_img} alt="" />
+      <img className="w-full sm:w-1/2" src={assets.hero_img} alt="" />
     </div>
   );
 };

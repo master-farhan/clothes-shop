@@ -21,7 +21,7 @@ const Contact = () => {
             Tel: (415) 888-9480 <br /> Email: admin@gmail.com
           </p>
           <p className="font-semibold text-xl text-gray-600">
-            Careers at Forever
+            Careers at Threadzone
           </p>
           <p className="text-gray-500">
             Learn more our teem about job openings.

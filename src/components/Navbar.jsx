@@ -11,7 +11,12 @@ const Navbar = () => {
   return (
     <div className="flex items-center justify-between py-5 font-medium">
       <Link to="/">
-        <img src={assets.logo} className="w-36" alt="Logo" />
+        {/* <img
+          src={assets.logo}
+          className="h-5 w-40 object-cover object-left filter drop-shadow-[inset_0_0_15px_rgba(0,0,0,0.5)]"
+          alt="Logo"
+        /> */}
+        <h3 className="text-2xl text-shadow text-gray-700 font-sm prata-regular">DripNest</h3>
       </Link>
 
       <ul className="hidden sm:flex gap-5 text-sm text-gray-700">
