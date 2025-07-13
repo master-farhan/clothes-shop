@@ -3,7 +3,7 @@ import { assets } from "../assets/assets";
 
 const Hero = () => {
   return (
-    <div className="flex justify-between flex-col sm:flex-row ">
+    <div className="flex justify-between flex-col sm:flex-row bg-[#F9F9F9]">
       {/* Hero left side */}
       <div className="w-full sm:w-1/2 flex items-center justify-center sm:justify-start py-10 sm:py-0">
         <div className="text-[#414141]">
